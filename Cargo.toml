@@ -1,0 +1,20 @@
+[package]
+name = "toolchain"
+version = "0.1.0-alpha.1"
+edition = "2021"
+description = "Parser for rust toolchains"
+license = "MIT OR Apache-2.0"
+authors = ["Federico Maria Morrone <contact@morrone.dev>"]
+repository = "https://github.com/morr0ne/toolchain"
+readme = "README.md"
+documentation = "https://docs.rs/toolchain"
+include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+
+[dependencies]
+target-lexicon = "0.12.4"
+time = "0.3.11"
+thiserror = "1.0.31"
+
+[dev-dependencies]
+target-lexicon-macros = "0.1.0-alpha.1"
+time-macros = "0.2.4"
